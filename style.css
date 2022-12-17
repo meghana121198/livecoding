@@ -1,0 +1,57 @@
+.container{
+    display:grid;
+    row-gap:10px;
+    padding:10px;
+    
+}
+.containeritem{
+    width:400px;
+    background-color: rgb(57, 140, 235);
+    color:white;
+    font-size:20px;
+    padding:10px;
+}
+@media(max-width:320px){
+    .containeritem{
+        background-repeat: repeat-y;
+        height:200px;
+        width:200px;
+        position: absolute;
+        left:0%;
+        top:50px;
+    }
+}
+
+.city{
+    position:absolute;
+    top:300px;
+    left:500px;
+    width:40%;
+}
+@media(max-width:320px){
+    .city{
+        
+        height:100px;
+        width:100px;
+        position:relative;
+        left:0%;
+        top:200px;
+    }
+}
+
+.qs{
+    display: inline-block;
+    padding:20px;
+    margin:30px;
+    position:absolute;
+    background-color: aqua;
+    left:1100px;
+    top:150px;
+
+
+}
+.bt{
+    position:relative;
+    top:100px;
+    
+}
